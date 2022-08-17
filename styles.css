@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "CrashNumber";
+    src: url("Fonts/Crashnumberinggothic-MAjp.ttf");
+}
+
+body {
+    background-color: #1c1c1c;
+    overflow: hidden;
+    font-family: "Uber",sans-serif;
+}
+
+
+.header {
+    text-align: center;
+    color: #FFF;
+    background-color: black;
+    width: 101.5%;
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+
+  }
+  .calculator {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.25rem;
+    margin: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  }
+  .first-row,.second-row,.third-row,.fourth-row {
+    display: flex;
+    justify-content: center;
+  }
+  .display {
+    /* font-family: "CrashNumber"; */
+    box-sizing: content-box;
+    height:50px;
+    width:500px;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    padding: 20px;
+    padding-top: 5px;
+    /* margin: auto; */
+    margin-bottom: 40px;
+    background-color: #FFF;
+    color: #2EE59D;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+  }
